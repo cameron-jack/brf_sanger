@@ -1,10 +1,8 @@
-$VER = "v2.02.003"
+$VER = "v0.01.000"
 $DATE = "Date: {0}" -f (Get-Date)
 
 $COMMENT = @"
-* Fixed: Unknown sequences not being reported in genotyping report (accidentally skipped in v2.02.002)
-* TODO: coloured text in PDF report
-* TODO: add multiple sequence alignmnent to genotyping report screen
+* New: Initial push of PyQt6 code
 "@
 
 Move-Item -Path "changelog.txt" -Destination "changelog_old.txt"
