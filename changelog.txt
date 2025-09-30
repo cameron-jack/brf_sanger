@@ -1,0 +1,6 @@
+v2.02.003
+Date: 30/09/2025 4:35:24 PM
+* Fixed: Unknown sequences not being reported in genotyping report (accidentally skipped in v2.02.002)
+* TODO: coloured text in PDF report
+* TODO: add multiple sequence alignmnent to genotyping report screen
+
